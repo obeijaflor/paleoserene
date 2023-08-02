@@ -1,23 +1,23 @@
-English | [简体中文](https://github.com/isunjn/serene/blob/main/README-cn.md)
+# paleoserene - A blog theme for zola
 
-# Serene - A blog theme for zola
-
-Serene is a simple and clean blog theme for Static-Site-Generator [Zola](https://www.getzola.org/).
-
-[Demo](https://serene-demo-site.vercel.app) | [Docs](https://github.com/isunjn/serene/wiki)
+Paleoserene is a fork of @isunjn's beautiful [serene theme](https://github.com/isunjn/serene)
+for [Zola](https://www.getzola.org).  This fork builds off of the old v0.2.0 branch of
+the upstream project, as I wished to make some minor changes to meet my needs.
 
 ## Preview
+
+This theme is live at https://beijaflor.es.
 
 <details>
   <summary>Click to see screenshots</summary>
   
-  ![](https://github.com/isunjn/serene/blob/main/screenshots/1.png?raw=true)
-  ![](https://github.com/isunjn/serene/blob/main/screenshots/2.png?raw=true)
-  ![](https://github.com/isunjn/serene/blob/main/screenshots/3.png?raw=true)
-  ![](https://github.com/isunjn/serene/blob/main/screenshots/4.png?raw=true)
-  ![](https://github.com/isunjn/serene/blob/main/screenshots/5.png?raw=true)
-  ![](https://github.com/isunjn/serene/blob/main/screenshots/6.png?raw=true)
-  ![](https://github.com/isunjn/serene/blob/main/screenshots/7.png?raw=true)
+  ![](screenshots/1.png)
+  ![](screenshots/2.png)
+  ![](screenshots/3.png)
+  ![](screenshots/4.png)
+  ![](screenshots/5.png)
+  ![](screenshots/6.png)
+  ![](screenshots/7.png)
 </details>
 
 ## Features
@@ -41,19 +41,20 @@ Serene is a simple and clean blog theme for Static-Site-Generator [Zola](https:/
 
 ## How to use
 
-See [docs](https://github.com/isunjn/serene/wiki).
+For now, see the upstream [docs](https://github.com/isunjn/serene/wiki).
 
 ## Contributing
 
-If you found a bug or want a specific feature, just open an issue.
-
-Be noticed that to keep serene simple, some needs may not be considered. You can implement it in your own site.
+You likely would prefer to contribute to the [upstream theme](https://github.com/isunjn/serene)
+instead.  I am maintaining this fork mostly for my own use.  However, I am still open to
+considering pull requests, if for some reason you want to make use of my tweaks too.
 
 ## Credits
 
+- @isunjn for the original [serene](https://github.com/isunjn/serene) theme 
 - [Remixicon](https://remixicon.com/) for icons
 - [Lightense Images](https://github.com/sparanoid/lightense-images) for image zooming
-- This theme draws some inspiration from these awesome sites:
+- As per @isunjn, the serene theme takes inspiration from these awesome sites:
     - <https://www.zhangxiaochun.com/>
     - <https://lightquantum.me/>
     - <https://theme-cards.ichr.me/>
@@ -61,4 +62,4 @@ Be noticed that to keep serene simple, some needs may not be considered. You can
 
 ## License
 
-[MIT](https://github.com/isunjn/serene/blob/main/LICENSE)
+[MIT](LICENSE)
