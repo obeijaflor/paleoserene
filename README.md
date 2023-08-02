@@ -1,8 +1,9 @@
 # paleoserene - A blog theme for zola
 
-Paleoserene is a fork of @isunjn's beautiful [serene theme](https://github.com/isunjn/serene)
-for [Zola](https://www.getzola.org).  This fork builds off of the old v0.2.0 branch of
-the upstream project, as I wished to make some minor changes to meet my needs.
+Paleoserene is a fork of [isunjn](https://github.com/isunjn)'s beautiful 
+[serene theme](https://github.com/isunjn/serene) for [Zola](https://www.getzola.org).
+This fork builds off of the old v0.2.0 branch of the upstream project, as I wished to
+make some minor changes to meet my needs.
 
 ## Preview
 
@@ -39,10 +40,6 @@ This theme is live at https://beijaflor.es.
 - Projects page
 - Easily customize
 
-## How to use
-
-For now, see the upstream [docs](https://github.com/isunjn/serene/wiki).
-
 ## Contributing
 
 You likely would prefer to contribute to the [upstream theme](https://github.com/isunjn/serene)
@@ -51,10 +48,10 @@ considering pull requests, if for some reason you want to make use of my tweaks 
 
 ## Credits
 
-- @isunjn for the original [serene](https://github.com/isunjn/serene) theme 
+- [isunjn](https://github.com/isunjn) for the original [serene](https://github.com/isunjn/serene) theme 
 - [Remixicon](https://remixicon.com/) for icons
 - [Lightense Images](https://github.com/sparanoid/lightense-images) for image zooming
-- As per @isunjn, the serene theme takes inspiration from these awesome sites:
+- The upstream serene theme takes inspiration from these awesome sites:
     - <https://www.zhangxiaochun.com/>
     - <https://lightquantum.me/>
     - <https://theme-cards.ichr.me/>
