@@ -7,7 +7,7 @@ make some minor changes to meet my needs.
 
 ## Preview
 
-This theme is live at https://beijaflor.es.
+This theme is live at https://rachelsfba.com.
 
 <details>
   <summary>Click to see screenshots</summary>
