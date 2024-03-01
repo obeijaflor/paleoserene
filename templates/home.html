@@ -29,10 +29,12 @@
     </div>
     <div class="link">
         <div class="left">
+            {% if config.extra.show_blog %}
             <a href="/blog" id="blog">
                 <i class="{{ config.extra.blog_icon }} ri-xl"></i>
                 <span>Blog</span>
             </a>
+            {% endif %}
             {% if config.extra.show_projects %}
             <a href="/projects" id="projects">
                 <i class="{{ config.extra.projects_icon }} ri-xl"></i>

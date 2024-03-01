@@ -40,6 +40,8 @@
         <div class="showhidden"><button data-category="{{category}}">More<i class="ri-arrow-down-s-line ri-lg"></i></button></div>
         {% endif -%}
     </div>
+    {%- else -%}
+    There are no blog posts here for now, please check back soon!
     {% endfor -%}
 </main>
 {% include "_footer.html" %}

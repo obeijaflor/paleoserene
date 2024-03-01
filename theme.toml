@@ -18,6 +18,7 @@ bio = "xxxx"
 avatar = "img/avatar.webp"
 
 show_id = true
+show_blog = true
 show_projects = true
 
 #=========================================================================================
