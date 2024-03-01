@@ -25,14 +25,15 @@ div.info {
         }
         #id {
             border: 2px var(--primary-color) solid;
+            border-radius: 20px;
             color: var(--primary-color);
             padding: 0px 16px 1px 16px;
-            border-radius: 20px;
             font-size: 0.75em;
         }
         #bio {
             color: var(--text-second-color);
             font-size: 0.8em;
+            line-height: 0.75em;
             a {
                 color: var(--primary-color);
                 text-decoration: underline var(--primary-light-color) 2px;

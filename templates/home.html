@@ -24,7 +24,7 @@
                 <span id="id">@{{ config.extra.id }}</span>
                 {% endif %}
             </p>
-            <p id="bio">{{ config.extra.bio | markdown(inline=true) | safe }}</p>
+            <div id="bio">{{ config.extra.bio | markdown | safe }}</div>
         </div>
     </div>
     <div class="link">
@@ -44,10 +44,16 @@
         </div>
         <div class="right">
             {% for link in config.extra.links %}
-            <a href="{{ link.url }}" aria-label="{{ link.name }}" target="_blank"
-              rel="{{ link.rel | default(value="noopener") }}"><i class="{{ link.icon }} ri-xl"></i></a>
+            <a aria-label="{{ link.name }}" title="{{ link.name }}" href="{{ link.url }}"
+              target="_blank" rel="{{ link.rel | default(value="noopener") }}">
+              <i class="{{ link.icon }} ri-xl"></i>
+            </a>
             {% endfor %}
-            <button id="color-toggle"  aria-label="dark light mode switch"><i class="ri-moon-line ri-xl"></i></button>
+            <button id="color-toggle"
+              aria-label="Toggle dark mode (currently: off)"
+              title="Toggle dark mode (currently: off)">
+              <i class="ri-moon-line ri-xl"></i>
+            </button>
         </div>
     </div>
     <div class="brief">{{ section.content | trim | safe }}</div>
