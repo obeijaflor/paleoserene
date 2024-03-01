@@ -24,7 +24,7 @@
                 <span id="id">@{{ config.extra.id }}</span>
                 {% endif %}
             </p>
-            <p id="bio"> {{ config.extra.bio }} </p>
+            <p id="bio"> {{ config.extra.bio | markdown }} </p>
         </div>
     </div>
     <div class="link">
