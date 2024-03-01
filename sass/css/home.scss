@@ -33,6 +33,13 @@ div.info {
         #bio {
             color: var(--text-second-color);
             font-size: 0.8em;
+            a {
+                color: var(--primary-color);
+                text-decoration: underline var(--primary-light-color) 2px;
+                &:hover {
+                    text-decoration-color: var(--primary-color);
+                }
+            }
         }
     }
 }
