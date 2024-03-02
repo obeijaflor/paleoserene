@@ -31,14 +31,12 @@
         <div class="left">
             {% if config.extra.show_blog %}
             <a href="/blog" id="blog">
-                <i class="{{ config.extra.blog_icon }} ri-xl"></i>
-                <span>Blog</span>
+                <i class="{{ config.extra.blog_icon }} ri-xl"></i><span>Blog</span>
             </a>
             {% endif %}
             {% if config.extra.show_projects %}
             <a href="/projects" id="projects">
-                <i class="{{ config.extra.projects_icon }} ri-xl"></i>
-                <span>Projects</span>
+                <i class="{{ config.extra.projects_icon }} ri-xl"></i><span>Projects</span>
             </a>
             {% endif %}
         </div>
@@ -50,8 +48,8 @@
             </a>
             {% endfor %}
             <button id="color-toggle"
-              aria-label="Toggle dark mode (currently: off)"
-              title="Toggle dark mode (currently: off)">
+              aria-label="toggle dark mode (currently off)"
+              title="toggle dark mode (currently off)">
               <i class="ri-moon-line ri-xl"></i>
             </button>
         </div>

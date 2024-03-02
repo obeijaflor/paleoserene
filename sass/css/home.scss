@@ -33,7 +33,7 @@ div.info {
         #bio {
             color: var(--text-second-color);
             font-size: 0.8em;
-            line-height: 0.75em;
+            line-height: 0.75;
             a {
                 color: var(--primary-color);
                 text-decoration: underline var(--primary-light-color) 2px;
@@ -73,7 +73,7 @@ div.link {
         text-decoration: none;
         color: var(--text-primary-color);
         cursor: pointer;
-        margin-right: 10px;
+        margin-right: 5px;
         &:hover {
             color: var(--primary-color);
         }

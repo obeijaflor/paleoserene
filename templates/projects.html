@@ -20,11 +20,23 @@
 {% block content %}
 <header {% if config.extra.blur_effect %} class="blur" {% endif %}>
     <div class="top">
-        <a class="header projects" href="/projects"><i class="{{ config.extra.projects_icon }} ri-2x"></i><span>Projects</span></a>
-        <a class="back" href="/"><i class="ri-arrow-left-s-line ri-1x"></i><span>Home</span></a>
+        <a class="header projects" href="/projects">
+          <i class="{{ config.extra.projects_icon }} ri-2x"></i><span>Projects</span>
+        </a>
+        <a class="back" href="/">
+          <i class="ri-arrow-left-s-line ri-1x"></i><span>Home</span>
+        </a>
         <div class="icon">
-            <a id="go-home" href="/" aria-label="home"><i class="{{ config.extra.home_icon }} ri-xl"></i></a>
-            <button id="color-toggle" aria-label="dark light mode switch"><i class="ri-moon-line ri-xl"></i></button>
+            <!-- this icon, which goes back to home, will only be shown at smaller
+              screen sizes. Desktop users can just use the Back button -->
+            <a id="go-home" href="/" aria-label="home" title="home">
+              <i class="{{ config.extra.home_icon }} ri-xl"></i>
+            </a>
+            <button id="color-toggle"
+              aria-label="toggle dark mode (currently off)"
+              title="toggle dark mode (currently off)">
+              <i class="ri-moon-line ri-xl"></i>
+            </button>
         </div>
     </div>
     <div id="progress-bar"></div>

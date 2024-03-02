@@ -19,7 +19,7 @@
 {% block content %}
 {% include "_blog_header.html" %}
 <main>
-    {% for category,posts in section.pages | group_by(attribute="taxonomies.categories.0") -%}
+    {% for category, posts in section.pages | group_by(attribute="taxonomies.categories.0") -%}
     <div class="title">{{ category }}</div>
     <div class="post-list">
         {% for post in posts | slice(end=section.extra.show_post_num) -%}
@@ -41,7 +41,9 @@
         {% endif -%}
     </div>
     {%- else -%}
-    There are no blog posts here for now, please check back soon!
+    <div class="no-posts">
+        There are no blog posts here for now, please check back soon!
+    </div>
     {% endfor -%}
 </main>
 {% include "_footer.html" %}

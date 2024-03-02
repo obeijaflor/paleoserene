@@ -5,8 +5,8 @@ const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
 const prefersLight = window.matchMedia("(prefers-color-scheme: light)");
 
 function toggleDarkTheme() {
-    toggleBtn.setAttribute('title', 'Toggle dark mode (currently on)');
-    toggleBtn.setAttribute('aria-label', 'Toggle dark mode (currently on)');
+    toggleBtn.setAttribute('title', 'toggle dark mode (currently on)');
+    toggleBtn.setAttribute('aria-label', 'toggle dark mode (currently on)');
     toggleBtnIcon.classList.remove('ri-moon-line');
     toggleBtnIcon.classList.add('ri-sun-line');
     document.body.classList.add('dark-mode');
@@ -14,8 +14,8 @@ function toggleDarkTheme() {
     localStorage.setItem("theme", "dark");
 }
 function toggleLightTheme() {
-    toggleBtn.setAttribute('title', 'Toggle dark mode (currently off)');
-    toggleBtn.setAttribute('aria-label', 'Toggle dark mode (currently off)');
+    toggleBtn.setAttribute('title', 'toggle dark mode (currently off)');
+    toggleBtn.setAttribute('aria-label', 'toggle dark mode (currently off)');
     toggleBtnIcon.classList.remove('ri-sun-line');
     toggleBtnIcon.classList.add('ri-moon-line');
     document.body.classList.remove('dark-mode');

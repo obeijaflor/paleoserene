@@ -40,7 +40,7 @@ header {
         text-decoration: none;
         span {
             position: relative;
-            top: -6px;
+            top: -0.1em;
             font-size: 1.7em;
         }
         &:hover {
@@ -50,15 +50,13 @@ header {
     
     div.icon {
         padding-right: 15px;
-        transform: translateY(5px);
-        a,
-        button{
+        a, button {
             border: none;
             background-color: #0000;
             padding: 0;
             text-decoration: none;
             color: var(--text-primary-color);
-            margin-left: 20px;
+            margin-left: 10px;
             cursor: pointer;
             @media (hover: hover) {
                 &:hover {
