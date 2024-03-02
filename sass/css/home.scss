@@ -1,4 +1,5 @@
 main {
+    padding: 0 15px;
     margin: 0 auto;
     margin-top: var(--homepage-margin-top);
     max-width: var(--homepage-max-width);
@@ -167,7 +168,6 @@ div.brief {
         font-size: 1.3em;
     }
 }
-
 
 body.dark-mode {
     div.info .info-text #bio {
