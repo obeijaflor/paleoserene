@@ -13,15 +13,21 @@
               <i class="{{ config.extra.home_icon }} ri-xl"></i>
             </a>
             {% if config.extra.feed_in_blog_section -%}
-            <a href="/blog/{{ config.feed_filename }}"
-              aria-label="rss feed" title="rss feed">
-              <i class="{{ config.extra.rss_icon }} ri-xl"></i>
-            </a>
-            {% elif config.generate_feed -%}
-            <a href="/{{ config.feed_filename }}"
-              aria-label="rss feed" title="rss feed">
-              <i class="{{ config.extra.rss_icon }} ri-xl"></i>
-            </a>
+                {% for feed_filename in config.feed_filenames %}
+                <a href="/blog/{{ feed_filename }}" 
+                  aria-label="rss feed {{ feed_filename }}"
+                  title="rss feed {{ feed_filename }}">
+                  <i class="{{ config.extra.rss_icon }} ri-xl"></i>
+                </a>
+                {% endfor %}
+            {% elif config.generate_feeds -%}
+                {% for feed_filename in config.feed_filenames %}
+                <a href="/{{ feed_filename }}" 
+                  aria-label="rss feed {{ feed_filename }}"
+                  title="rss feed {{ feed_filename }}">
+                  <i class="{{ config.extra.rss_icon }} ri-xl"></i>
+                </a>
+                {% endfor %}
             {% endif -%}
             <button id="color-toggle"
               aria-label="toggle dark mode (currently off)"
